@@ -21,7 +21,7 @@ L'application "Documentation Baritone" a été créée pour aider les utilisateu
 
 1. Installez Python.
 2. Installez PyQt5 en utilisant pip: `pip install PyQt5`.
-3. Lancez l'application en exécutant: `python votre_fichier.py`.
+3. Lancez l'application en exécutant: `main.py`.
 
 ## Guide d'Utilisation
 
@@ -47,7 +47,7 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 ## Contacts
 
-Si vous avez des questions ou des suggestions, vous pouvez me contacter à [votre_email@example.com](mailto:votre_email@example.com).
+Si vous avez des questions ou des suggestions, vous pouvez me contacter .
 
 
 
@@ -74,7 +74,7 @@ The "Baritone Documentation" application was created to assist Minecraft players
 
 1. Install Python.
 2. Install PyQt5 using pip: `pip install PyQt5`.
-3. Run the application by executing: `python your_filename.py`.
+3. Run the application by executing: `main.py`.
 
 ## Usage Guide
 
@@ -100,5 +100,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or suggestions, you can contact me at [your_email@example.com](mailto:your_email@example.com).
+For questions or suggestions, you can contact me
 
