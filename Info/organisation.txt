@@ -1,0 +1,51 @@
+Étape 1 : Mise en Place de l'Environnement de Développement
+Installez Python si ce n'est pas déjà fait.
+Installez PyQt5 en utilisant pip.
+
+
+Étape 2 : Création de la Fenêtre Principale
+Créez une fenêtre principale pour l'application avec un titre.
+Définissez la taille et la position de la fenêtre.
+Affichez la fenêtre.
+
+
+Étape 3 : Ajout d'une Barre de Recherche
+Ajoutez un champ de texte pour permettre aux utilisateurs de saisir des mots-clés pour rechercher des commandes.
+
+
+Étape 4 : Création de Catégories
+Créez une liste de catégories pour organiser les commandes (ex. : Commandes de Base, Déplacement, Minage, Exploration, Construction).
+Les utilisateurs pourront sélectionner une catégorie spécifique.
+
+
+Étape 5 : Affichage des Commandes
+Créez une zone d'affichage où les informations détaillées sur les commandes seront affichées.
+Par défaut, affichez un message d'accueil.
+
+
+Étape 6 : Chargement des Données de Commande
+Préparez un jeu de données initial avec des commandes de Baritone et leurs descriptions.
+Structurez les données par catégorie.
+
+
+Étape 7 : Interaction Utilisateur
+Lorsque l'utilisateur sélectionne une catégorie, affichez les commandes correspondantes dans la zone d'affichage.
+Lorsque l'utilisateur saisit un mot-clé dans la barre de recherche, filtrez les commandes en fonction du mot-clé.
+
+
+Étape 8 : Affichage des Détails des Commandes
+Lorsque l'utilisateur sélectionne une commande, affichez sa description détaillée dans la zone d'affichage.
+
+
+Étape 9 : Intégration des Informations en Ligne (Facultatif)
+Si vous le souhaitez, envisagez d'intégrer la possibilité de récupérer des informations en ligne à partir d'une source externe, comme un site web, et de les stocker en local pour une utilisation hors ligne.
+
+
+Étape 10 : Tests et Débogage
+Testez l'interface utilisateur pour vous assurer que toutes les fonctionnalités fonctionnent correctement.
+Corrigez les erreurs éventuelles et améliorez l'expérience utilisateur.
+
+
+Étape 11 : Finalisation et Distribution (Optionnelle)
+Ajoutez des fonctionnalités supplémentaires ou une meilleure mise en forme si nécessaire.
+Préparez l'application pour une distribution potentielle, par exemple, en créant un exécutable Windows.
