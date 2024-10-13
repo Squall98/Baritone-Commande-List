@@ -2,10 +2,21 @@ import sys
 import sqlite3
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QLabel, QLineEdit, QVBoxLayout, QWidget,
                              QPushButton, QComboBox, QTextBrowser)
+import os
+import sys
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        base_path = sys._MEIPASS  # PyInstaller stocke les fichiers ici temporairement
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 def main():
     # Établissez une connexion à la base de données SQLite
-    conn = sqlite3.connect('baritone_commands.db')
+    db_path = resource_path('baritone_commands.db')
+    conn = sqlite3.connect(db_path)
 
     # Créez la table de données si elle n'existe pas déjà
     conn.execute('''

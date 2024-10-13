@@ -1,0 +1,5 @@
+# Ignorer le dossier build
+build/
+
+# Ignorer le dossier dist
+dist/
