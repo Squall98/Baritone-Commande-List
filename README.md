@@ -1,4 +1,4 @@
-# Documentation Baritone
+# Documentation Baritone {FR}
 
 Une application PyQt pour documenter le mod Baritone de Minecraft.
 
@@ -51,7 +51,7 @@ Si vous avez des questions ou des suggestions, vous pouvez me contacter .
 
 
 
-# Baritone Documentation
+# Baritone Documentation {EN}
 
 A PyQt application for documenting the Baritone mod for Minecraft.
 
